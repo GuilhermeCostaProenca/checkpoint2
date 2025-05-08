@@ -12,6 +12,10 @@ public class Paciente {
 
     private String nome;
     private String endereco;
+    public Paciente(String endereco) {
+        this.endereco = endereco;
+    }
+
     private String bairro;
     private String email;
     private String telefoneCompleto;
